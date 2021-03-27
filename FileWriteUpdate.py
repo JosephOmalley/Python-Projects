@@ -14,6 +14,7 @@ def launchPage():
     value = En.get()
     f.write("<html>\n<body>\n<h1>\n" + value +"</h1>\n</body>\n</html>")
     f.close()
+    webbrowser.open_new_tab("demof.html")
 
     webbrowser.open("demof.html")
 # This is the The GUI with three widgets/elements.
