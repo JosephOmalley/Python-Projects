@@ -48,10 +48,12 @@ def checkFile():
         if pTime < cDateT:
             shutil.move(sPath+i, dest)
 
+
+
 bB1 = Button(root, text="Select Source",command = selSource)
 bB2 = Button(root, text="Select Dest",command = selDest)
 cB = Button(root, text="Check for files...",command = checkFile)
-clB = Button(root, text="Close Program")
+clB = Button(root, text="Close Program",command = lambda: root.destroy())
 
 
 
