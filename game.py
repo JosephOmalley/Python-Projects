@@ -1,6 +1,6 @@
 #Python:    3.9.2
 #Author: Joseph Omalley
-#Purpose: Using varible using and functions to produce a functional game
+#Purpose: a simple CLI game
 
 
 
