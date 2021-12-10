@@ -26,17 +26,17 @@ print(O, C, lT, pT, nT)
 
 
 if nT >= O and nT <= C:
-    print("Yes, this is open")
+    print("Yes, our New York location is open")
 else:
-    print("No, this is not open")
+    print("No, our New York location is not open")
 
 if pT >= O and pT <= C:
-    print("Yes, this is open")
+    print("Yes, our Portland location is open")
 else:
-    print("No, this is not open")
+    print("No, our Portland location is not open")
 
 if lT >= O and lT <= C:
-    print("Yes, this is open")
+    print("Yes, our London location is open")
 else:
-    print("No, this is not open")
+    print("No, our London location is not open")
 
